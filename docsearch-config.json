@@ -1,13 +1,16 @@
 {
-  "index_name": "livepeer-org-docs",
-  "start_urls": ["https://livepeer.org/docs"],
+  "index_name": "docs",
+  "start_urls": [
+    "https://livepeer-com-git-emi-docs-livepeerorg.vercel.app/docs"
+  ],
   "selectors": {
     "default": {
-      "lvl0": ".docs-container h1",
-      "lvl1": ".docs-container h2",
-      "lvl2": ".docs-container h3",
-      "lvl3": ".docs-container h4",
-      "lvl4": ".docs-container h5",
+      "lvl0": { "selector": ".docs-container h1", "strip_chars": "#›" },
+      "lvl1": { "selector": ".docs-container h1", "strip_chars": "#›" },
+      "lvl2": { "selector": ".docs-container h2", "strip_chars": "#›" },
+      "lvl3": { "selector": ".docs-container h3", "strip_chars": "#›" },
+      "lvl4": { "selector": ".docs-container h4", "strip_chars": "#›" },
+      "lvl5": { "selector": ".docs-container h5", "strip_chars": "#›" },
       "text": ".docs-container p, .docs-container li"
     }
   },
