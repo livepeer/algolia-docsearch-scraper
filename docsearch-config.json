@@ -11,6 +11,7 @@
       "lvl3": { "selector": ".docs-container h3", "strip_chars": "#›" },
       "lvl4": { "selector": ".docs-container h4", "strip_chars": "#›" },
       "lvl5": { "selector": ".docs-container h5", "strip_chars": "#›" },
+      "lvl6": { "selector": ".docs-container h6", "strip_chars": "#›" },
       "text": ".docs-container p, .docs-container li"
     }
   },
