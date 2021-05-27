@@ -1,0 +1,15 @@
+{
+  "index_name": "livepeer-org-docs",
+  "start_urls": ["https://livepeer.org/docs"],
+  "selectors": {
+    "default": {
+      "lvl0": ".docs-container h1",
+      "lvl1": ".docs-container h2",
+      "lvl2": ".docs-container h3",
+      "lvl3": ".docs-container h4",
+      "lvl4": ".docs-container h5",
+      "text": ".docs-container p, .docs-container li"
+    }
+  },
+  "selectors_exclude": [".no-index"]
+}
