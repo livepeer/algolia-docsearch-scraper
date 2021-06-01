@@ -14,6 +14,12 @@ run DocSearch yourself.
 
 This project supports Python 3.6+
 
+### Run It
+
+```bash
+docker run -it --env-file=.env -e "CONFIG=$(cat ./docsearch-config.json | jq -r tostring)" algolia/docsearch-scraper
+```
+
 ## Related projects
 
 DocSearch is made of 4 repositories:

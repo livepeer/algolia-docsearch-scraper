@@ -5,15 +5,20 @@
   ],
   "selectors": {
     "default": {
-      "lvl0": { "selector": ".docs-container h1", "strip_chars": "#›" },
-      "lvl1": { "selector": ".docs-container h1", "strip_chars": "#›" },
-      "lvl2": { "selector": ".docs-container h2", "strip_chars": "#›" },
-      "lvl3": { "selector": ".docs-container h3", "strip_chars": "#›" },
-      "lvl4": { "selector": ".docs-container h4", "strip_chars": "#›" },
-      "lvl5": { "selector": ".docs-container h5", "strip_chars": "#›" },
-      "lvl6": { "selector": ".docs-container h6", "strip_chars": "#›" },
-      "text": ".docs-container p, .docs-container li"
+      "lvl0": {
+        "selector": "",
+        "default_value": "Documentation"
+      },
+      "lvl1": "main h1",
+      "lvl2": "main h2",
+      "lvl3": "main h3",
+      "lvl4": "main h4",
+      "lvl5": "main h5",
+      "lvl6": "main h6",
+      "text": "main p, main li"
     }
   },
-  "selectors_exclude": [".no-index"]
+  "strip_chars": "#\u203a",
+  "selectors_exclude": [".no-index"],
+  "nb_hits": 328
 }
