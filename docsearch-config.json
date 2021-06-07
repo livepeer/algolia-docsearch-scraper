@@ -1,8 +1,6 @@
 {
   "index_name": "docs",
-  "start_urls": [
-    "https://livepeer-com-git-emi-docs-livepeerorg.vercel.app/docs"
-  ],
+  "start_urls": ["https://livepeer.com/docs"],
   "selectors": {
     "default": {
       "lvl0": {
